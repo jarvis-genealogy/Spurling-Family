@@ -1,0 +1,746 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles\generalstyles.css">
+
+<title>Spurling family tree</title>
+
+<script language="JavaScript">
+
+function popup(FILE, FEATURES) { 
+    CONTENT = "<HTML><HEAD><TITLE>Enlarged image</TITLE></HEAD>" +
+              "<BODY><CENTER><FORM><INPUT TYPE='BUTTON' VALUE='Close'" +
+               "onClick='window.close()'></FORM><P><IMG SRC='" + FILE + 
+               "' BORDER=0>" + "</CENTER>"+ "</BODY></HTML>";
+              pop = window.open("","",FEATURES);
+              pop.document.open();
+              pop.focus();
+              pop.document.write(CONTENT);
+              pop.document.close();
+
+} 
+
+
+function view (imagefile) { 
+   var winShell
+   var atext, btext, ctext;
+   var fso;
+   var quoteS = String.fromCharCode(34);
+
+   atext=self.location.href; // the current page path
+   fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+   btext = fso.GetParentFolderName(atext); // path without the page name
+   delete(fso);
+
+   atext = quoteS + "\\" + btext + exefile  + quoteS; // add the image relative path and put in quotes
+   atext = atext.replace( /\//g, '\\' ); // make sure the slashes are the right way round
+   ctext = "btext = " + btext + " atext = " + atext;
+   // alert(ctext);
+
+   atext = "rundll32.exe %SystemRoot%\system32\shimgvw.dll,ImageView_Fullscreen";
+   // add the image path
+   atext = atext + "\\" + imagefile;
+   alert(text);
+
+   // Run the given executable
+   winShell = new ActiveXObject("WScript.Shell");
+   // winShell.Run(atext);
+   delete(winShell);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<br>
+
+<CENTER>
+
+</CENTER>
+
+<br>
+
+<H1><CENTER>Spurling family tree</CENTER></H1>
+
+
+<H3>
+<div class="tooltip">
+<a href="../index.html">The Spurling family</a>
+<span class="tooltiptext">Family page</span>
+</div>
+</H3>
+
+<br>
+
+<ol>
+
+<!-- https://www.familysearch.org/en/tree/pedigree/landscape/K487-3SB 
+leadedge
+Gleegle6000
+-->
+
+<li><a href = "persons\James-Spurling-1750.html">James SPURLING</a> (1750 - 23 Jan 1811) m 29 Nov 1773
+  Sarah HART (16 Sep 1751 - 1847)
+  <ol>
+	<li>Sarah SPURLING</li>
+	<!-- <a href = "persons\James-Spurling-1777.html"> -->
+    <li>James SPURLING</a> (25 Mar 1777 - 28 Dec 1848) m 29 Nov 1773
+    Frances JESSUP (08 Nov 1778 - 05 Apr 1825)
+    <ol>
+	  <li>Robert SPURLING 05 Sep 1799-</li>
+	  <li>Mary Ann SPURLING 18 Oct 1803-</li>
+	  <!-- <a href="https://www.familysearch.org/en/tree/person/KNHP-HTP"> -->
+	  <li>James SPURLING 30 Mar 1806-20 Sep 1888 m Letitia WOODS 9 Oct 1808-17 May 1886
+	    <!-- https://www.myheritage.com/site-family-tree-62837741/spurling-banham-sthaust -->
+		<ol>
+			<li>Maria SPURLING ~1838-18 Mar 1898 m Joseph RICE 1807-30 May 1857</li>
+			<li>Emily SPURLING May 15 1840-Jan 5 1845 (at age 4)</li>
+			<li>James SPURLING Feb 23 1844-Apr 1 1844 (at age less than 1)</li>
+			<li>George SPURLING Feb 28 1845-Mar 5 1845 (at age less than 1)</li>
+			<li>James SPURLING 27 Feb 1845-March 1845</li>
+			<li>Sarah Ann SPURLING 11 Aug 1846-31 Dec 1874 m (DELLOW)
+				<ol>
+				<li>Arthur DELLOW 15 May 1865–6 Sep 1942</li>
+				<li>Emma DELLOW 1867–
+					<ol>
+					<li>Rose DELLOW 16 Dec 1885–</li>
+					</ol>
+				</li>
+				<li>Charles Allan DELLOW 11 May 1872–5 Nov 1944</li>
+				<li>Samuel DELLOW 13 Oct 1874–</li>
+				</ol>
+			</li>
+			<li>Emma SPURLING 1849-29-Apr 1907 m Frank MERRITT 12 Aug 1847-23 Jul 1914</li>
+		</ol>
+	  </li>
+      <li>
+	    <a href = "persons\William-Spurling-1808.html">William SPURLING</a> (26 Aug 1808 – 12 Jul 1895) m
+	    Lucy WOODS (22 Feb 1807 - 24 Sep 1888)
+	    <!-- <a href = "persons\Lucy-Woods.html">Lucy WOODS</a> (22 Feb 1807 - 24 Sep 1888) -->
+	    <ol>
+		  <li>Robert SPURLING 5 Sep 1799–</li>
+		  <!-- <a href="https://www.familysearch.org/en/tree/person/details/L7YK-4XS"> -->
+		  <li>Mary Ann SPURLING 11 Jan 1832
+			<ol>
+				<li>Jacob SPURLING ~1850-</li>
+				<li>John SPURLING ~1852-</li>
+			</ol>
+		  </li>
+		  <li>William John SPURLING 22 Feb 1834-28 Aug 1838</li>
+		  <li>Amy SPURLING 28 Feb 1835-17 Mar 1844</li>
+		  <li>
+		  <a href = "persons\Robert-Spurling-1838.html">Robert SPURLING</a> (08 Apr 1838 – 09 Jul 1913) m 31 Aug 1857
+		  Margaret Frances LYONS (1831 – 27 Dec 1890)
+		  <!-- <a href="persons\Margaret-Lyons.html">Margaret Frances LYONS</a> (1831 – 27 Dec 1890) -->
+		  <ol>
+			<a class="screen" href="images\Spurlings.jpg">
+				<img STYLE="position:absolute; left:-40px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\William John Spurling_thumb.jpg" height = 160></b>
+			</a>
+			<a class="screen" href="images\Spurling Family.jpg">
+				<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\Mary O'Loughlin_thumb.jpg" height = 160></b>
+			</a>
+			<li>
+			<a href="https://www.familysearch.org/en/tree/person/details/LH22-ZPN">William John SPURLING</a>
+			01 Mar 1859-5 Aug 1939 m Mary O'LOUGHLIN 18 Mar 1857-26 Feb 1948
+				<ol>
+					<a class="screen" href="images\thumbs\Thomas William Spurling_thumb.jpg">
+						<img STYLE="position:absolute; left:-40px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\thumbs\Thomas William Spurling_thumb.jpg" height = 160></b>
+					</a>
+					<a class="screen" href="images\Pycroft Family.jpg">
+						<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\Susan May Pycroft.jpg" height = 160></b>
+					</a>
+					<!-- https://www.facebook.com/p/Tribute-to-Spurling-Family-100063530318770/ -->
+					<li><a href="persons\Thomas-William-Spurling-1883.html">Thomas William SPURLING</a> May 16 1883-Mar 14 1958 m Susan May PYCROFT Jan 22 1888-Nov 1 1965
+						<ol>
+							<a class="screen" href="images\Eileen Gertrude Spurling.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Eileen Gertrude Spurling.jpg" height = 160></b>
+							</a>
+							<li>Eileen Gertrude SPURLING 30 Sep 1906-7 July 1935 m Nathaniel Rickards George HILLIER 14 Apr 1903–9 Aug 1968</li>
+							<a class="screen" href="images\Arthur Joseph Spurling.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Arthur Joseph Spurling.jpg" height = 160></b>
+							</a>
+							<li>Arthur Joseph Spurling 11 May 1908–7 Apr 1978 m Ida Gladys Jeffery 3 Dec 1898–29 Jul 1984</li>
+							
+							<a class="screen" href="images\Doris May Spurling.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Doris May Spurling.jpg" height = 160></b>
+							</a>
+							<li>Doris May Spurling 2 Feb 1911–16 Aug 1976 m Thomas Patrick Nesmann SMITH 19 Dec 1895
+								<ol>
+								<li>Slyvester Patrick SMITH 15 Mar 1930–21 Jun 1980</li>
+								<li>Philip John SMITH 8 Jun 1932–1 Apr 1991</li>
+								<!-- Christopher Thomas Bernard Smith and wife Helen.JPG -->
+								<a class="screen" href="images\Christopher Thomas Bernard Smith and wife Helen.JPG">
+									<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+									src="icons\blue_16x16.JPG" alt="Click to enlarge">
+									<b><img src="images\Christopher Thomas Bernard Smith and wife Helen.JPG" height = 160></b>
+								</a>
+								<li>Christopher Thomas Bernard SMITH 1 Sep 1933–1 Sep 2005 m Helen Josephine MALONEY-</li>
+								<li>Matthew Kevin SMITH 6 Sep 1942–10 Jul 2016</li>
+								</ol>
+							</li>
+							<!-- Elsie Mary Spurling.JPG -->
+							<a class="screen" href="images\Elsie Mary Spurling.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Elsie Mary Spurling.JPG" height = 160></b>
+							</a>
+							<li>Elsie Mary SPURLING 26 Jun 1912–21 May 1996 m Albert Alwyn Edwin WALKER 8 Jul 1909–10 Jul 1978</li>
+							<li>Andrew Thomas SPURLING 24 Oct 1914–16 Jul 1994 m Mavis Elva WAREHAM 10 Apr 1917–23 Apr 2011</li>
+							<!-- Veronica Spurling.JPG -->
+							<a class="screen" href="images\Veronica Spurling.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Veronica Spurling.JPG" height = 160></b>
+							</a>
+							<li>Veronica SPURLING 27 May 1916–17 Nov 2000</li>
+							<!-- Majorie Jean Moore -->
+							<a class="screen" href="images\Majorie Jean Moore.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Majorie Jean Moore.JPG" height = 160></b>
+							</a>
+							<li>William Robert Edward SPURLING 29 Nov 1920–29 Dec 2004 m Marjorie Jean MOORE 16 Feb 1920–29 Aug 2008</li>
+							<!-- Patrick John Spurling.JPG -->
+							<a class="screen" href="images\Patrick John Spurling.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Patrick John Spurling.JPG" height = 160></b>
+							</a>
+							<li>Patrick John SPURLING 4 Aug 1922–27 Feb 1980</li>
+							<!-- Joyce Edna May Weekley.JPG -->
+							<a class="screen" href="images\Joyce Edna May Weekley.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Joyce Edna May Weekley.JPG" height = 160></b>
+							</a>
+							<li>Edmond Bernard SPURLING 23 Sep 1925–19 Feb 1990 m Joyce Edna May WEEKLEY 19 Jun 1929–7 April 1990</li>
+							<!-- Alice Jean Halliday.JPG -->
+							<a class="screen" href="images\Alice Jean Halliday.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Alice Jean Halliday.JPG" height = 160></b>
+							</a>
+							<li>Lionel Dominic SPURLING 30 Jan 1927–20 Jun 2012 m Alice Jean HALLIDAY 6 Aug 1923–26 Apr 2009</li>
+							<li>Donald Michael SPURLING 15 Aug 1929–30 June 2013</li>
+						</ol>
+					</li>
+					<a class="screen" href="images\thumbs\John Robert Spurling_thumb.jpg">
+						<img STYLE="position:absolute; left:-40px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\thumbs\John Robert Spurling_thumb.jpg" height = 160></b>
+					</a>
+					<a class="screen" href="images\Coral Keen.jpg">
+						<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\Coral Keen.jpg" height = 160></b>
+					</a>
+					<li>John Robert SPURLING Mar 2 1885-Sep 2 1969 m Coral KEEN Sep 7 1888-Oct 12 1952
+						<ol>
+						<a class="screen" href="images\Frederick John Spurling.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Frederick John Spurling.jpg" height = 160></b>
+						</a>
+						<li>Frederick John SPURLING 14 Jun 1914–20 January 1982 m Mary Frances ELSON 12 Mar 1916–4 Dec 1961
+							<ol>
+							<li>Marie Spurling -</li>
+							</ol>
+						</li>
+						<a class="screen" href="images\Edward George SPURLING.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Edward George SPURLING.jpg" height = 160></b>
+						</a>
+						<a class="screen" href="images\Dorothy May Lukeman.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Dorothy May Lukeman.jpg" height = 160></b>
+						</a>
+						<li>Edward George SPURLING 8 Aug 1915–19 Dec 1994 m Dorothy May LUKEMAN 5 Jan 1916–25 Sep 2008
+							<ol>
+							<a class="screen" href="images\Maxwell Edward Spurling and family.jpg">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\thumbs\Maxwell Edward Spurling_thumb.jpg" height = 160></b>
+							</a>
+							<a class="screen" href="images\Lorraine Brady.jpg">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Lorraine Brady.jpg" height = 160></b>
+							</a>
+							<li>Maxwell Edward SPURLING 14 Aug 1935–4 Aug 2013 m Lorraine BRADY 1946–Dec 2013
+								<ol>
+								<li>Desma Rae SPURLING –Mar 2021</li>
+								</ol>
+							</li>
+							</ol>
+						</li>
+						<a class="screen" href="images\Francis Martin Spurling.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Francis Martin Spurling.jpg" height = 160></b>
+						</a>
+						<li>Francis Martin SPURLING 12 Nov 1917–13 Jan 1980 m </li>
+						<a class="screen" href="images\Nora Philomena Spurling.jpg">
+							<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+							src="icons\blue_16x16.JPG" alt="Click to enlarge">
+							<b><img src="images\Nora Philomena Spurling.jpg" height = 160></b>
+						</a>
+						<li>Nora Philomena SPURLING 17 Jul 1925–12 Mar 2011 m Kevin Douglas BAILEY 1925–4 Oct 1985</li>
+						</ol>
+					</li>
+					
+					
+					<a class="screen" href="images\thumbs\Edmund Joseph Spurling_thumb.jpg">
+						<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\thumbs\Edmund Joseph Spurling_thumb.jpg" height = 160></b>
+					</a>
+					<li>Edmund Joseph "Joe" SPURLING Nov 22 1886-July 10 1955 m Henrietta Mabel JOHNSON Aug 18 1881-Nov 5 1939
+						<ol>
+						<li>Maud Frances SPURLING 29 Jun 1909–4 Oct 1976 m William Leonard THOMAS 24 Nov 1908– 11 Aug 1993
+							<ol>
+							<li>John THOMAS ~1934–</li>
+							<li>Frederick William THOMAS ~1935– m Glyns JOY ~1937–</li>
+							</ol>
+						</li>
+						<li>Clement Edmond SPURLING 5 Apr 1911–10 Aug 1971 m Lilian May STEVENS 27 Jan 1911–26 Apr 1996
+							<ol>
+							<li>Brian Clement SPURLING 15 Sep 1934–2 Jul 2001 m Mavis DOREEN ~1936–May 2020</li>
+							<li>Dean SPURLING ~1936–</li>
+							<li>Barbara SPURLING ~1938–</li>
+							</ol>
+						</li>
+						<li>Thomas Douglas SPURLING 22 Aug 1917–5 Feb 1973 m Mary Gertrud O'RIELLY 21 Apr 1911–20 Jun 1990</li>
+						<li>Ray Johnson SPURLING 25 May 1919–7 December 1995</li>
+						</ol>
+					</li>
+					<li>Ann SPURLING Sep 25 1888-Sep 26 1888</li>
+					<li>Michael SPURLING Sep 7 1893-Sep 9 1893</li>
+					<a class="screen" href="images\thumbs\Mary Veronica Spurling_thumb.jpg">
+						<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\thumbs\Mary Veronica Spurling_thumb.jpg" height = 160></b>
+					</a>
+					<li>Mary Veronica SPURLING Sep 7 1894-Oct 8 1990 m Edward QUICK 10 Nov 1887-6 Nov 1956
+						<ol>
+						<li>Doris Cecelia QUICK 12 Nov 1919–17 Dec 2014 m David John PAINTER ~1920–1 Jan 2006
+							<ol>
+							<li>John PAINTER 29 Mar 1945–</li>
+							<li>Susan PAINTER ~1946–</li>
+							</ol>
+						</li>
+						<li>William Percival QUICK 26 Oct 1920–23 Jan 1965</li>
+						<li>Mary QUICK 9 Feb 1922– m Allan Frederick CHAMPION 20 Mar 1920–3 Dec 2011</li>
+						<li>John QUICK 8 Oct 1923–</li>
+						<li>Edward John QUICK 5 Oct 1925–22 Aug 1985 m Dorthy Jean FELS 1927–
+							<ol>
+							<li>Cheryl Quick -</li>
+							<li>Phillip Quick -</li>
+							</ol>
+						</li>
+						<li>Peter QUICK 5 Jul 1927–16 Oct 2006 m Iris Maureen KRIEG 1931–6 Feb 2016</li>
+						<li>Ruth QUICK ~1932– m Leonard Keith JOHNS 1930–1992</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+			<li>Mary Ann SPURLING 22 Jul 1861-1 July 1934 m Francis Alexander ASHER 1847-28 Jul 1931</li>
+			<a class="screen" href="images\Mary_Theresa_Guerin.jpg">
+			  <img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+			  src="icons\blue_16x16.JPG" alt="Click to enlarge">
+			  <b><img src="images\Mary_Theresa_Guerin.jpg" height=160></b>
+			</a>
+			<li>
+			<a href = "persons\Samuel-Bernard-Spurling-1863.html">Samuel Bernard SPURLING</a> (31 Dec 1863 – 02 May 1931)  m 31 Aug 1857 Mary Theresa GUERIN (13 Apr 1864 – 02 Jul 1945)
+			<!-- <a href="persons\Mary-Theresa-Guerin.html">Mary Theresa GUERIN</a> (13 Apr 1864 – 02 Jul 1945)</a> -->
+		      <ol>
+				<li>Annie Helena SPURLING 30 Jul 1890 25 Nov 1891</li>
+			    <li>Margaret Frances (Fan) SPURLING 08 Oct 1891-3 Dec 1972 m Henry Frederick William (Bill) 
+				FULLGRABE 29 May 1893-1 Sep 1985
+				  <ol>
+					<!-- TODO - book -->
+				    <li>Margaret Frances FULLGRABE 21 Jul 1922-18 May 2018 m Phillip Newton RAYMOND 17 Sep 1921-5 Aug 2001</li>
+				    <li>Mary Rebecca FULLGRABE 8 Jan 1926-8 Dec 2014 m Eamon Vincent DUNNE  8 Aug 1928-9 Oct 2017
+						<ol>
+							<li>Ann Margaret DUNNE 3 Jan 1957-17 Jul 2010</li>
+						</ol>
+					</li>
+				  </ol>
+				</li>
+			    <li>Mary SPURLING 28 Jul 1893-2 Nov 1972</li>
+				<a class="screen" href="images\Thomas_Francis_(Frank)_Spurling.jpg">
+					<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+					src="icons\blue_16x16.JPG" alt="Click to enlarge">
+					<b><img src="images\Thomas_Francis_(Frank)_Spurling.jpg" height = 160></b>
+				</a>
+				<li>Thomas Frances SPURLING 9 mar 1896-24 Jan 1959 m Ivy May HAGLEY 28 Dec 1900-27 Jun 1997
+					<ol>
+						<li>Milton Bernard SPURLING 12 Jun 1925-18 Sep 2005 m Nancy Kathleen WILKINSON 26 Jun-26 Sep 2000>/li>
+					</ol>
+				</li>
+				<li>Raymond SPURLING 16 Jun 1898-22 Oct 1898</li>
+				<li>Frank SPURLING 1899-1903 (at age ~4)</li>
+				<li>Norah Catherine SPURLING 11 Jun 1901-12 Jan 1970 m John Fife SMITH 27 Dec 1894-7 Mar 1965</li>
+				
+				<!-- Sanderson Family tree link -->
+				<li id="spurling-gertrude-verner">
+				<a class="screen" href="https://jarvis-genealogy.github.io/Sanderson-Family/content/tree.html#sanderson-verner-gertrude">
+				<img STYLE="position:absolute; left:-48px; top:-5px "
+				src="icons/family-tree.ico" width = 24 alt="[X]">
+				<b><img src="images\Gertrude_Mary_Spurling.jpg" height = 160></b>
+				</a>	
+				<a class="screen" href="images\gert_and_vern_1960_reunion_ECE.jpg">
+					<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+					src="icons\blue_16x16.JPG" alt="Click to enlarge">
+					<b><img src="images\Verner-1960.jpg" height = 160></b>
+				</a>
+				<a href = "persons\Gertrude-Mary-Spurling-1902.html">Gertrude Mary SPURLING</a> (17 Nov 1902 – 1969) m Verner Stuart Leslie SANDERSON (04 May 1887 – 28 Jan 1970)</a>
+			    </li>
+			    <li>Bernard Samuel SPURLING 2 Oct 1904-1991 m Jessie Amelia BARROW 7 Apr 1904-17 Apr 1981</li>
+			    <li>Clara Eileen Veronica SPURLING 1 Jun 1906-4 Feb 2005 m Herbert William Porter COCKRUM 7 Mar 1909-5 May 1993</li>
+			    <li>Cecelia Aloysie SPURLING 29 Jul 1908-5 Sep 1981 m Wesley HARRIS 2 Sep 1903-9 Sep 1982</li>
+			  </ol>
+			</li>
+			<!-- <a href="https://www.familysearch.org/en/tree/person/LH22-ZPC"> -->
+  			<li>Joseph Thomas SPURLING 20 Feb 1867-8 Apr 1929 m Alexandrina Edith RAMSAY 21 Jul 1873-16 Sep 1934
+				<ol>
+					<li>Elsie May SPURLING July 11 1901-Dec 4 1903 (at age 2)</li>
+					<li>Ellen Frances SPURLING Mar 27 1903-Dec 1983</li>
+					<li>Gertrude Mary SPURLING Apr 27 1905-Apr 1984</li>
+					<li>Violet Beatrice Lilian SPURLING Dec 16 1906-July 1985</li>
+				</ol>
+			</li>
+			
+			<a class="screen" href="images\Rebecca_Cecelia_Spurling.jpg">
+				<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\Rebecca Cecelia Spurling_thumb.jpg" height = 160></b>
+			</a>
+			<!-- <a href="https://www.familysearch.org/en/tree/person/LH22-ZPP"> -->
+			<li>Rebecca Cecilia SPURLING 14 Sep 1869-29 Apr 1892 m Daniel Christopher Joseph KILDEA 2 Nov 1862-12 Nov 1911
+				<ol>
+					<li>Gertrude Mary KILDEA Oct 3 1888-</li>
+					<li>Margaret Cecelia KILDEA Feb 20 1890-</li>
+				</ol>
+			</li>
+			<li>Margaret Agnes SPURLING 17 Dec 1871-8 Apr 1902 m Edward DEVLIN 14 Jun 1866-18 Mar 1948</li>
+		  </ol>
+		</li>
+		
+		<a class="screen" href="images\Joshua_Spurling.jpg">
+		<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+		src="icons\blue_16x16.JPG" alt="Click to enlarge">
+		<b><img src="images\Joshua_Spurling.jpg" height = 160></b>
+		</a>
+		<!-- <a href="https://www.familysearch.org/en/tree/person/L7YK-QSQ"> -->
+		<li>Joshua SPURLING 15 Aug 1840-21 Jan 1904 m Margaret HALLION 1835-6 Jun 1895
+		<ol>
+			<li>John Michael SPURLING 17 Nov 1859-5 Apr 1927 m Mary Ann CONGDON 7 Sep 1864-13 Apr 1951</li>
+			<li>Charles Edwin SPURLING 11 Nov 1861-26 Oct 1922 m Mary Ann EVERETT 15 Feb 1876-1 Feb 1941</li>
+			<li>Henry Alfred SPURLING 17 Feb 1864-7 Oct 1912 m Annie GARVEY 16 Jun 1864-6 Jul 1938</li>
+			<li>Joshua SPURLING 20 Mar 1866-1867</li>
+			
+			<!-- William Alfred Spurling_thumb.JPG -->
+			<a class="screen" href="images\Spurling family at Balaklava on Show Day 1909.JPG">
+				<img STYLE="position:absolute; left:-40px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\William Alfred Spurling_2_thumb.JPG" height = 160></b>
+			</a>
+			<a class="screen" href="images\Charlotte Augusta Emma Dohse.jpg">
+				<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\Charlotte Augusta Emma Dohse_thumb.jpg" height = 160></b>
+			</a>
+			<li>William Alfred SPURLING 10 Feb 1867-5 Sep 1945 m Charlotte Augusta Emma DOHSE 1 Aug 1871-25 Aug 1967
+				<ol>
+					<li>Corp William Alfred SPURLING 1892-1917</li>
+					<a class="screen" href="images\thumbs\Elsie_Margaret_Spurling_thumb.jpg">
+						<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\thumbs\Elsie_Margaret_Spurling_thumb.jpg" height = 160></b>
+					</a>
+					<li>Elsie Margaret SPURLING 31 Oct 1894 5 Aug 1982 m Ernest Walter ARNOLD 28 Jan 1893-10 July 1974</li>
+					<a class="screen" href="images\thumbs\Cecil York Crowell_thumb.JPG">
+						<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+						src="icons\blue_16x16.JPG" alt="Click to enlarge">
+						<b><img src="images\thumbs\Cecil York Crowell_thumb.JPG" height = 160></b>
+					</a>
+					<li>Irene Lucy SPURLING 27 May 1896-18 Oct 1951 m Cecil York Crowell 26 June 1901-2 Jun 1966
+						<ol>
+							<a class="screen" href="images\thumbs\Mervyn Crowell_thumb.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\thumbs\Mervyn Crowell_thumb.JPG" height = 160></b>
+							</a>
+							<li>Mervyn CROWELL 17 Mar 1926–8 Oct 2013</li>
+							<a class="screen" href="images\Clifford Murray Crowell.JPG">
+								<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+								src="icons\blue_16x16.JPG" alt="Click to enlarge">
+								<b><img src="images\Clifford Murray Crowell.JPG" height = 160></b>
+							</a>
+							<li>Clifford Murray CROWELL 18 Sep 1927–8 Jun 2007 m Mureen Fay ALLEN 27 Aug 1929–27 Sep 1992</li>
+							<li>Kevin Dudley Crowell Jan 1929–17 Dec 1936</li>
+						</ol>
+					</li>
+					<li>Sidney Mervyn SPURLING 17 May 1898-22 Nov 1925</li>
+					<li>Francis Clifford SPURLING 6 Feb 1900 28 April 1991 m Ada Lilly Violet SMITH 22 Nov 31 Dec 1994</li>
+					<li>Amy Sylvia SPURLING 9 May 1902-13 Jan 2008 m Waldemar Karl SCHUBERT 31 Aug 1902-198</li>
+					<li>Gustav Lindsay Vincent SPURLING 3 Sep 1903-1 Aug 1976 m Nina Ellen BURGESS 31 Oct 1904-30 Nov 1979
+						<ol>
+							<li>Betty Maureen SPURLING 16 Feb 1928 – 22 May 1965 m Reo Kevin Hector John POWELL 5 Feb 1926-26 Aug 2000</li>
+						</ol>
+					</li>
+					<li>Ivy Doris May SPURLING 10 Sep 1906–18 Jul 2002 m Donald Angus MORRISON 25 Jan 1901-2 Sep 1965
+						<ol>
+							<li>Patricia Kathleen MORRISON 11 Jan 1925–1 Oct 2018 m Roy Sutton KLINBERG 25 Oct 1921–6 Nov 2007
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+			<li>Joshua George SPURLING 12 Apr 1869-3 Oct 1933 m Alice MANNIX 10 Aug 1872-8 Aug 1958
+				<ol>
+					<li>Bertram John SPURLING 8 Aug 1900–5 Jul 1977 m Phillis Isabel DARLEY 9 Apr 1914–10 Sep 1990</li>
+					<li>Margaret Kathleen Marcella SPURLING 15 Jan 1901–25 Feb 1901</li>
+					<li>Reginald SPURLING 28 Jul 1903–1964 m Alfrieda Franziska WEGENER 15 Jun 1903–13 Aug 1962</li>
+					<li>Doris May SPURLING 4 Feb 1905–4 Oct 1990 m George Leo FLETCHER 9 Jul 1898–6 Apr 1934</li>
+					<li>Otto Thomas SPURLING 29 May 1907–3 May 1990 m Philomena Mary REIDY 1912 – 29 Nov 1971</li>
+					<li>Catherine SPURLING 2 Apr 1910–6 Dec 1997 m Michael Augustine CAVANAGH 10 Apr 1907–31 Jan 1967</li>
+				</ol>
+			</li>
+			
+			<a class="screen" href="images\Margaret_Marcella_Spurling.jpg">
+				<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\Margaret Marcella Spurling_thumb.jpg" height = 160></b>
+			</a>
+			<li>Margaret Marcella SPURLING 7 Oct 1871-25 Jul 1934 m George William ORMSBY 14 Jan 1867-18 Apr 1947
+				<ol>
+					<li>George Francis Joshua ORMSBY 27 Apr 1891–26 Mar 1966 m Laura Alice EDWARDS 16 Feb 1893–2 Aug 1981
+					<ol>
+						<li>Bevan Maxwell ORMSBY 27 May 1919–29 Nov 1992 m Elvera Jean MUNRO 4 Jun 1921– 13 Mar 1989</li>
+					</ol>
+					</li>
+					<li>Charles Edward ORMSBY 3 Jul 1892–10 Oct 1924 m Clara Philomena WELKE 13 Aug 1888–18 Jul 1963
+						<ol>
+							<li>Edgar Gerald ORMSBY 4 Feb 1912–29 Mar 2001 m Mable Ellen Cora BODDINGTON 25 Oct 1911–4 Nov 2007
+							<ol>
+								<li>Pamela Ann ORMSBY 8 Oct 1936–13 Apr 1939</li>
+								<li>Kay ORMSBY 26 Sep 1941–25 Jul 1978 m Albert William WADE 2 Aug 1938–1 Oct 2005</li>
+							</ol>
+							</li>
+						</ol>
+					</li>
+					<li>Harold ORMSBY 6 Jan 1895–6 Aug 1945 m Sarah Pearl DOBIE 4 Jan 1897–26 Jun 1983</li>
+					<li>Margaret Gladys May ORMSBY 30 Apr 1897–23 Oct 1953 m Frank Ernest REINKE 27 Dec 1894–1 Jan 1972
+						<ol>
+						<li>Richard Brian REINKE 1929–22 Sep 1930</li>
+						</ol>
+					</li>
+					<li>William Claude ORMSBY 9 Jul 1899–3 Sep 1970 m Linda Gesina Koch BURT 17 Oct 1900–1981
+						<ol>
+						<li>Alan Burt ORMSBY 12 Feb 1918–4 Jun 1995</li>
+						<li>Raymond John ORMSBY 3 Oct 1921–1957 m Patricia Ann PAPLEY 1926–1994</li>
+						<li>Ronald Edwin George ORMSBY 27 Jun 1923–17 Feb 2007 m Ellen Ann SULLIVAN 14 Jan 1933–</li>
+						<li>Kevin Ormsby 1924–</li>
+						</ol>
+					</li>
+					<li>Clarence Clifford Hallion ORMSBY 28 Jun 1902–2 Feb 1968 m Lily Georgiana HIGGINS 16 May 1902–12 Aug 1957
+						<ol>
+						<li>Sylvia Eileen ORMSBY 22 Dec 1922–31 Mar 1932</li>
+						<li>Phyllis Merle ORMSBY 2 Jun 1924–22 Sep 1997 m Keith George DANIEL 27 Mar 1922–2000</li>
+						<li>Leonard Clarence ORMSBY 29 Aug 1926–30 May 2004 m Verna Miriam BARTON 20 Apr 1929–20 Aug 2011</li>
+						</ol>
+					</li>
+					<li>Sydney Ross ORMSBY 24 Apr 1905–24 May 1964 m Effie Unetta HARMER 20 Oct 1900–22 Jan 1991
+						<ol>
+						<li>Donald Ross ORMSBY 1946–16 Feb 1999</li>
+						</ol>
+					</li>
+					<li>Lester Maxwell ORMSBY 25 Mar 1912–12 Aug 1976 m Lillian Irene Elsie WALDING 7 Nov 1913–25 Jan 1946
+						<ol>
+						<li>Irene Dawn ORMSBY 1933–16 Jun 2002 m Ronald Arthur BATES ~1935–3 Nov 1999</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+			
+			<!-- https://www.familysearch.org/en/tree/pedigree/landscape/LYLX-HNP -->
+			<li>Mary Jane SPURLING 26 May 1874-9 Jul 1968 m Robert George WATSON 29 Feb 1872–18 Jul 1963<\li>
+				<ol>
+					<li>Ethel May WATSON 23 Sep 1894–19 Jul 1995 m Benjamin CLARK 17 Oct 1883–29 Dec 1957
+						<ol>
+						<li>Ernest Leslie CLARK 5 Mar 1913–3 Apr 1958 m Ethel Jane THOMAS 13 Aug 1911–14 Feb 2001
+							<ol>
+							<li>Laurel Betty CLARK 4 Jan 1932 –</li>
+							<li>Barry Garfield CLARK 27 Aug 1934–21 Jun 2010 m Maureen Lilian CARSON 28 May 1936–16 Jul 2005</li>
+							</ol>
+						</li>
+						<li>Cyril Maxwell CLARK 1 Dec 1914–12 Dec 1993 m Ivy Myrtle SMITH 8 Oct 1905– 
+							<ol>
+							<li>Lorraine Joyce CLARK 1941–23 May 1944</li>
+							</ol>
+						</li>
+						<li>Stanley Gordon CLARK 3 Jul 1917–4 Mar 1918</li>
+						<li>Roy Vivian CLARK 25 Jun 1919–24 Oct 1926</li>
+						<li>Leonard Gordon CLARK 17 Aug 1922–22 Jul 1987 m Alice Merle ROSEWARNE 21 Nov 1924–12 Nov 2015</li>
+						<li>Della Joyce CLARK 17 Aug 1922–10 Sep 2011</li>
+						<li>Colin Robert CLARK 3 May 1925– m Doreen Johnston -</li>
+						</ol>
+					</li>
+					<li>Frederick Gordon WATSON 29 Oct 1895–28 Apr 1951 m Linda May BROWN 26 Aug 1896–1 Nov 1971
+						<ol>
+						<li>Roma Jean WATSON 7 Oct 1918– m Lewis William Rex SMITH 5 Apr 1915–26 Oct 1989
+							<ol>
+							<li>John Smith 8 Dec 1945–8 Dec 1945</li>
+							<li>Peter Smith 8 Dec 1945–5 Jan 1946</li>
+							</ol>
+						</li>
+						<li>Kenneth Clive WATSON 4 Mar 1929–1 Nov 2005 m 
+							<ol>
+							<li>Daniel Edwin FISHLOCK 1959–1997</li>
+							</ol>
+						</li>
+						</ol>
+					</li>
+					<li>Murdoch Henry WATSON 13 May 1897–29 December 1897</li>
+					<li>Percival Lance WATSON 2 Mar 1899–8 Oct 1899</li>
+					<li>Olive Pearl WATSON 12 Aug 1903–9 Mar 1943 m Harold COSSONS 11 Jan 1892–20 Jul 1979
+						<ol>
+						<li>Sydney Louis COSSONS 23 Aug 1923–22 Aug 1950</li>
+						</ol>
+					</li>
+				</ol>
+			<a class="screen" href="images\Lucy Anna Spurling.jpg">
+			<img STYLE="position:absolute; left:-40px; width = 16; height=16;"
+			src="icons\blue_16x16.JPG" alt="Click to enlarge">
+			<b><img src="images\thumbs\Lucy Anna Spurling_thumb.jpg" height = 160></b>
+			</a>
+			<a class="screen" href="images\thumbs\Daniel Cushion_thumb.jpg">
+				<img STYLE="position:absolute; left:-20px; width = 16; height=16;"
+				src="icons\blue_16x16.JPG" alt="Click to enlarge">
+				<b><img src="images\thumbs\Daniel Cushion_thumb.jpg" height = 160></b>
+			</a>
+			<li>Lucy Anna SPURLING 2 Mar 1876-6 Sep 1957 m Daniel CUSHION 19 Mar 1878-27 Jul 1962
+				<ol>
+					<li>Elsie Katherine CUSHION 9 Jul 1904–3 Oct 1965 m Phillip Francis FOLEY 23 Dec 1892–12 Jun 1962</li>
+					<li>Norman Patrick CUSHION 13 Jul 1906–10 Mar 1945</li>
+					<li>Gladys Margaret CUSHION 11 Aug 1907–</li>
+				</ol>
+			</li>
+		</ol>
+		</li>
+		<li>William John SPURLING 16 Apr 1843-</li>
+		<li>Samuel SPURLING 14 Aug 1845-7 Jan 1864</li>
+		<li>John SPURLING 28 Nov 1847-30 Mar 1852</li>
+		<li>James SPURLING 1851-5 AUG 1855</li>
+	  </ol>
+	  <li>Rebecca SPURLING 1809-</li>
+	  <li>Sarah SPURLING 22 Apr 1811-30 Sep 1815
+	  <!-- <a href="https://www.familysearch.org/en/tree/person/9JD1-XNY"> -->
+	  <li>Joshua SPURLING ~1817-Dec 1886 m Sarah TIPPLE ~1821-~1851
+		<ol>
+			<li>Emma SPURLING 16 Apr 1845-</li>
+			<li>William Freeman SPURLING 1848- m Amelia (SPURLING) 1850-</li>
+			<li>George SPURLING 1853-</li>
+			<li>Walter SPURLING 1856-</li>
+		</ol>
+	  </li>
+	  <li>Mary SPURLING 14 Sep 1817-
+	  <!-- <a href="https://www.familysearch.org/en/tree/person/KGKG-Y85"> -->
+  	  <li>Sarah SPURLING Jul 1820-1849 m Henry PRENTICE ~1818-
+		<ol>
+			<li>Robert PRENTICE 1838-</li>
+			<li>Elizabeth PRENTICE 1841-</li>
+			<li>Rebecca PRENTICE 1843 m Philander SMITH 1843-
+				<ol>
+				<li>Henry Joseph SMITH Sep 1864–</li>
+				<li>Emma Jane SMITH Sep 1869–</li>
+				<li>Elizabeth SMITH Dec 1870–</li>
+				<li>Philander Leon SMITH Jun 1871–</li>
+				<li>Prentice Walter SMITH Dec 1872–</li>
+				<li>Edith SMITH Dec 1874–</li>
+				<li>Ellen SMITH Jun 1877–</li>
+				<li>Caroline SMITH 25 May 1879–</li>
+				<li>George Spencer SMITH Dec 1880– m Annie Elisa HOMER 25 Mar 1884–</li>
+				<li>Sidney James SMITH 3 Dec 1881–1 Feb 1949 m Ethel HARDWICK 1879–
+					<ol>
+					<li>Sydney P SMITH 1907–</li>
+					<li>Ivy Joan SMITH 24 Jun 1908–26 Dec 1940 m James Harold RODGER 24 Jul 1902–30 May 1993
+						<ol>
+						<li>Gerald Arthur RODGER 23 Apr 1937–10 Dec 2009</li>
+						</ol>
+					</li>
+					<li>Spencer Leon SMITH 1910–</li>
+					<li>Walter SMITH 1913–</li>
+					<li>Eric Russell SMITH 1915–</li>
+					</ol>
+				</li>
+				<li>Winifred Maud SMITH Dec 1883–</li>
+				<li>Ethel SMITH Sep 1886–</li>
+				</ol>
+			</li>
+			<li>Lydia PRENTICE 1846- m Sydney ALDRIDGE March 1840-20 Nov 1919
+				<ol>
+				<li>George Henry PRENTICE 10 Apr 1863–1 Jan 1885</li>
+				</ol>
+			</li>
+			<li>Henry PRENTICE 1849-</li>
+		</ol>
+	  </li>
+	  <li>Samuel SPURLING 2 Sep 1823-</li>
+	</li>
+  </ol>
+  </li>
+  <!-- <a href="https://www.familysearch.org/en/tree/person/L7YK-8X1"> -->
+  <li>Joseph SPURLING 14 Mar 1782 - 14 Dec 1852 m Mary RUDD Jul 1778-25 Nov 1863
+	<ol>
+	  <li>Frances SPURLING 1805-</li>
+	  <li>John SPURLING 1812-1883 m Martha BARKER 1812-1897</li>
+	  <li>Elizabeth SPURLING 1817- m Mathew MICKELBURG 31 Mar 1816-1851</li>
+	  <li>Anne SPURLING 14 Feb 1819-</li>
+	</ol>
+  </li>
+  <!-- <a href="https://www.familysearch.org/en/tree/person/L7YK-82J"> -->
+  <li>William SPURLING 10 Oct 1788-12 Jan 1867 m Hannah BUXTON 1792-5 Apr 1844
+	<ol>
+		<li>Hannah SPURLING 1826-</li>
+		<li>Rebecca SPURLING 1827-</li>
+		<li>Elizabeth SPURLING Jan 1828-</li>
+		<li>Mary SPURLING Jan 1828-</li>
+	</ol>
+  </li>
+  <li>Mary SPURLING 1 Apr 1791-10 Apr 1791</li>
+</ol> 
+
+</p>
+
+<p>
+
+</p>
+
+<br><br><br>
+
+</body>
+
+</html>
