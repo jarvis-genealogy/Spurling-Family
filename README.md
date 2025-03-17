@@ -1,4 +1,4 @@
-# [Spurling-Family](https://jarvis-genealogy.github.io/Spurling-Family/)
+# [Spurling-Family](https://jarvis-genealogy.github.io/Spurling-Family/content/spurling-tree.html)
 
 This record was compiled to provide information for the family of Gertrude Spurling of Port Augusta, South Australia, who married Verner Stuart Leslie Sanderson. Click the link above which leads to the descendancy chart.
 
